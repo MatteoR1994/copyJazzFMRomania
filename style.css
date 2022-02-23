@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Matter Bold';
+    src: url("../fonts/MatterSQ-Bold.eot");
+    src: url("../fonts/MatterSQ-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MatterSQ-Bold.woff2") format("woff2"),
+    url("../fonts/MatterSQ-Bold.woff") format("woff"),
+    url("../fonts/MatterSQ-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Matter';
+    src: url("../fonts/Matter-Light.eot");
+    src: url("../fonts/Matter-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Matter-Light.woff2") format("woff2"),
+    url("../fonts/Matter-Light.woff") format("woff"),
+    url("../fonts/Matter-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Matter";
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+header {
+    height: 100%;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .logo-now-play-div {
+        width: 54%;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red; */
+    }
+
+        .logo-div {
+            width: 100%;
+            height: 75%;
+            padding-left: 22px;
+            padding-top: 22px;
+            /* background-color: green; */
+        }
+
+        .now-play-div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-content: flex-end;
+            padding-bottom: 22px;
+            padding-left: 22px;
+            /* background-color: orange; */
+        }
+            p {
+                margin: 0;
+                width: max-content;
+                display: block;
+            }
+            .label {
+                text-transform: uppercase;
+                font-size: 14px;
+                line-height: 30px;
+                padding-bottom: 10px;
+            }
+            .artist {
+                font-size: 32px;
+                line-height: 30px;
+                line-height: 40px;
+                font-family: "Matter Bold";
+            }
+            .song {
+                font-family: "Matter";
+                font-weight: 300;
+            }
+
+    .play-button-div {
+        width: 46%;
+        height: 100%;
+        /* background-color: blue; */
+    }
+
+    .play-button-div img {
+        height: 100%;
+        cursor: pointer;
+    }
+
+.yellow-background {
+    background-color: #FFCC00;
+}
